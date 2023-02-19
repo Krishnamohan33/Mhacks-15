@@ -1,0 +1,72 @@
+import React from "react";
+import styled from "@emotion/styled";
+
+export function InvasionOfPrivacy() {
+  return (
+    <RootWrapperInvasionOfPrivacy>
+      <InvasionOfPrivacy_0001>
+        Invasion Of Privacy
+      </InvasionOfPrivacy_0001>
+      <InvasionOfPrivacyByAdvancedAiIsAPotentialConcernAsAiBecomesMoreSophisticatedAndCapableOfAnalyzingVastAmountsOfDataAiCanPotentiallyMonitorIndividualsActivitiesCollectPersonalInformationAndEvenPredictTheirBehaviorWithoutTheirConsentOrKnowledge>
+        invasion of privacy by advanced A.I. is a potential concern as A.I. becomes more sophisticated and capable of analyzing vast amounts of data. A.I. can potentially monitor individuals' activities, collect personal information, and even predict their behavior, without their consent or knowledge.
+      </InvasionOfPrivacyByAdvancedAiIsAPotentialConcernAsAiBecomesMoreSophisticatedAndCapableOfAnalyzingVastAmountsOfDataAiCanPotentiallyMonitorIndividualsActivitiesCollectPersonalInformationAndEvenPredictTheirBehaviorWithoutTheirConsentOrKnowledge>
+      <Image4 src="grida://assets-reservation/images/3:131" alt="image of Image4"/>
+      <Image7 src="grida://assets-reservation/images/3:137" alt="image of Image7"/>
+      <Image7 src="grida://assets-reservation/images/9:165" alt="image of Image8"/>
+    </RootWrapperInvasionOfPrivacy>
+  )
+}
+
+const RootWrapperInvasionOfPrivacy = styled.div`
+	min-height: 100vh;
+	background-color: rgb(23, 160, 190);
+	position: relative;
+`;
+
+const InvasionOfPrivacy_0001 = styled.span`
+	color: white;
+	text-overflow: ellipsis;
+	font-size: 100px;
+	font-family: Impact, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	width: 942px;
+	min-height: 162px;
+	position: absolute;
+	left: 283px;
+	top: 67px;
+	height: 162px;
+`;
+
+const InvasionOfPrivacyByAdvancedAiIsAPotentialConcernAsAiBecomesMoreSophisticatedAndCapableOfAnalyzingVastAmountsOfDataAiCanPotentiallyMonitorIndividualsActivitiesCollectPersonalInformationAndEvenPredictTheirBehaviorWithoutTheirConsentOrKnowledge = styled.span`
+	color: white;
+	text-overflow: ellipsis;
+	font-size: 60px;
+	font-family: Impact, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	width: 1243px;
+	min-height: 511px;
+	position: absolute;
+	left: 140px;
+	top: 310px;
+	height: 511px;
+`;
+
+const Image4 = styled.img`
+	width: 129px;
+	height: 120px;
+	object-fit: cover;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+`;
+
+const Image7 = styled.img`
+	width: 255px;
+	height: 197px;
+	object-fit: cover;
+	position: absolute;
+	left: 1185px;
+	top: 827px;
+`;

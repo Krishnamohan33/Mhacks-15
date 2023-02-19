@@ -1,0 +1,173 @@
+import React from "react";
+import styled from "@emotion/styled";
+
+export function Dangers() {
+  return (
+    <RootWrapperDangers>
+      <_5Dangers>
+        5 DANGERS
+      </_5Dangers>
+      <Rectangle2/>
+      <Rectangle3/>
+      <Rectangle4/>
+      <Rectangle5/>
+      <Rectangle6/>
+      <InvasionOfPrivacy>
+        Invasion of Privacy
+      </InvasionOfPrivacy>
+      <LossOfHumanJobs>
+        Loss Of Human Jobs
+      </LossOfHumanJobs>
+      <SocialManipulation>
+        Social Manipulation
+      </SocialManipulation>
+      <NetworkSurveillance>
+        Network surveillance
+      </NetworkSurveillance>
+      <FinancialCrisis>
+        Financial Crisis
+      </FinancialCrisis>
+    </RootWrapperDangers>
+  )
+}
+
+const RootWrapperDangers = styled.div`
+	min-height: 100vh;
+	background-color: rgb(23, 160, 190);
+	position: relative;
+`;
+
+const _5Dangers = styled.span`
+	color: white;
+	text-overflow: ellipsis;
+	font-size: 100px;
+	font-family: Impact, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	width: 942px;
+	min-height: 162px;
+	position: absolute;
+	left: 481px;
+	top: 56px;
+	height: 162px;
+`;
+
+const Rectangle2 = styled.div`
+	width: 565px;
+	height: 120px;
+	background-color: white;
+	position: absolute;
+	left: 423px;
+	top: 245px;
+`;
+
+const Rectangle3 = styled.div`
+	width: 565px;
+	height: 120px;
+	background-color: white;
+	position: absolute;
+	left: 423px;
+	top: 400px;
+`;
+
+const Rectangle4 = styled.div`
+	width: 565px;
+	height: 120px;
+	background-color: white;
+	position: absolute;
+	left: 423px;
+	top: 555px;
+`;
+
+const Rectangle5 = styled.div`
+	width: 565px;
+	height: 120px;
+	background-color: white;
+	position: absolute;
+	left: 423px;
+	top: 710px;
+`;
+
+const Rectangle6 = styled.div`
+	width: 565px;
+	height: 120px;
+	background-color: white;
+	position: absolute;
+	left: 423px;
+	top: 865px;
+`;
+
+const InvasionOfPrivacy = styled.span`
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 60px;
+	font-family: Impact, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	width: 528px;
+	min-height: 112px;
+	position: absolute;
+	left: 462px;
+	top: 253px;
+	height: 112px;
+`;
+
+const LossOfHumanJobs = styled.span`
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 60px;
+	font-family: Impact, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	width: 528px;
+	min-height: 112px;
+	position: absolute;
+	left: 462px;
+	top: 422px;
+	height: 112px;
+`;
+
+const SocialManipulation = styled.span`
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 60px;
+	font-family: Impact, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	width: 528px;
+	min-height: 112px;
+	position: absolute;
+	left: 462px;
+	top: 573px;
+	height: 112px;
+`;
+
+const NetworkSurveillance = styled.span`
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 60px;
+	font-family: Impact, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	width: 528px;
+	min-height: 112px;
+	position: absolute;
+	left: 462px;
+	top: 742px;
+	height: 112px;
+`;
+
+const FinancialCrisis = styled.span`
+	color: black;
+	text-overflow: ellipsis;
+	font-size: 60px;
+	font-family: Impact, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	width: 528px;
+	min-height: 112px;
+	position: absolute;
+	left: 462px;
+	top: 893px;
+	height: 112px;
+`;

@@ -1,0 +1,62 @@
+import React from "react";
+import styled from "@emotion/styled";
+
+export function Introduction() {
+  return (
+    <RootWrapperIntroduction>
+      <Introduction_0001>
+        Introduction<br/>
+
+      </Introduction_0001>
+      <AdvancedAiHasThePotentialToBringSignificantBenefitsToSocietySuchAsIncreasedEfficiencyImprovedHealthcareAndEnhancedScientificResearchHoweverThereAreAlsoPotentialRisksAndDangersAssociatedWithItsDevelopmentAndUse>
+        Advanced A.I. has the potential to bring significant benefits to society, such as increased efficiency, improved healthcare, and enhanced scientific research. However, there are also potential risks and dangers associated with its development and use.
+      </AdvancedAiHasThePotentialToBringSignificantBenefitsToSocietySuchAsIncreasedEfficiencyImprovedHealthcareAndEnhancedScientificResearchHoweverThereAreAlsoPotentialRisksAndDangersAssociatedWithItsDevelopmentAndUse>
+      <Image9 src="grida://assets-reservation/images/9:167" alt="image of Image9"/>
+    </RootWrapperIntroduction>
+  )
+}
+
+const RootWrapperIntroduction = styled.div`
+	min-height: 100vh;
+	background-color: rgb(23, 160, 190);
+	position: relative;
+`;
+
+const Introduction_0001 = styled.span`
+	color: white;
+	text-overflow: ellipsis;
+	font-size: 100px;
+	font-family: Impact, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	width: 940px;
+	min-height: 162px;
+	position: absolute;
+	left: 283px;
+	top: 67px;
+	height: 162px;
+`;
+
+const AdvancedAiHasThePotentialToBringSignificantBenefitsToSocietySuchAsIncreasedEfficiencyImprovedHealthcareAndEnhancedScientificResearchHoweverThereAreAlsoPotentialRisksAndDangersAssociatedWithItsDevelopmentAndUse = styled.span`
+	color: white;
+	text-overflow: ellipsis;
+	font-size: 60px;
+	font-family: Impact, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	width: 1243px;
+	min-height: 511px;
+	position: absolute;
+	left: 140px;
+	top: 310px;
+	height: 511px;
+`;
+
+const Image9 = styled.img`
+	width: 255px;
+	height: 197px;
+	object-fit: cover;
+	position: absolute;
+	left: 1223px;
+	top: 827px;
+`;

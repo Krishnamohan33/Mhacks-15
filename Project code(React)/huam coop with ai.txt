@@ -1,0 +1,68 @@
+import React from "react";
+import styled from "@emotion/styled";
+
+
+export function HumansCoopWithAi() {
+  return (
+    <RootWrapperHumansCoopWithAi>
+      <HumansCoopWithAi_0001>
+        Humans coop with AI<br/>
+
+      </HumansCoopWithAi_0001>
+      <TransparencyHumanInTheLoopExplainabilityEducationAndTrainingEthicsAndRegulationCollaboration>
+        Transparency<br/>
+Human-in-the-loop<br/>
+Explainability<br/>
+Education and training<br/>
+Ethics and regulation<br/>
+Collaboration
+      </TransparencyHumanInTheLoopExplainabilityEducationAndTrainingEthicsAndRegulationCollaboration>
+      <Image7 src="grida://assets-reservation/images/9:150" alt="image of Image7"/>
+    </RootWrapperHumansCoopWithAi>
+  )
+}
+
+const RootWrapperHumansCoopWithAi = styled.div`
+	min-height: 100vh;
+	background-color: rgb(23, 160, 190);
+	position: relative;
+`;
+
+const HumansCoopWithAi_0001 = styled.span`
+	color: white;
+	text-overflow: ellipsis;
+	font-size: 100px;
+	font-family: Impact, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	width: 942px;
+	min-height: 162px;
+	position: absolute;
+	left: 283px;
+	top: 67px;
+	height: 162px;
+`;
+
+const TransparencyHumanInTheLoopExplainabilityEducationAndTrainingEthicsAndRegulationCollaboration = styled.span`
+	color: white;
+	text-overflow: ellipsis;
+	font-size: 60px;
+	font-family: Impact, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	width: 1243px;
+	min-height: 511px;
+	position: absolute;
+	left: 140px;
+	top: 310px;
+	height: 511px;
+`;
+
+const Image7 = styled.img`
+	width: 255px;
+	height: 197px;
+	object-fit: cover;
+	position: absolute;
+	left: 1185px;
+	top: 827px;
+`;

@@ -1,0 +1,71 @@
+import React from "react";
+import styled from "@emotion/styled";
+
+export function NetworkSurvellance() {
+  return (
+    <RootWrapperNetworkSurvellance>
+      <NetworkSurveillance>
+        Network Surveillance
+      </NetworkSurveillance>
+      <Image5 src="grida://assets-reservation/images/3:125" alt="image of Image5"/>
+      <AiCanPotentiallyMonitorCommunicationNetworksCollectPersonalInformationAndEvenPredictBehaviorWithoutTheKnowledgeOrConsentOfTheIndividualsUsingTheNetwork>
+         A.I. can potentially monitor communication networks, collect personal information, and even predict behavior, without the knowledge or consent of the individuals using the network.
+      </AiCanPotentiallyMonitorCommunicationNetworksCollectPersonalInformationAndEvenPredictBehaviorWithoutTheKnowledgeOrConsentOfTheIndividualsUsingTheNetwork>
+      <Image10 src="grida://assets-reservation/images/3:145" alt="image of Image10"/>
+    </RootWrapperNetworkSurvellance>
+  )
+}
+
+const RootWrapperNetworkSurvellance = styled.div`
+	min-height: 100vh;
+	background-color: rgb(23, 160, 190);
+	position: relative;
+`;
+
+const NetworkSurveillance = styled.span`
+	color: white;
+	text-overflow: ellipsis;
+	font-size: 100px;
+	font-family: Impact, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	width: 942px;
+	min-height: 162px;
+	position: absolute;
+	left: 284px;
+	top: 68px;
+	height: 162px;
+`;
+
+const Image5 = styled.img`
+	width: 129px;
+	height: 120px;
+	object-fit: cover;
+	position: absolute;
+	left: 0px;
+	top: 8px;
+`;
+
+const AiCanPotentiallyMonitorCommunicationNetworksCollectPersonalInformationAndEvenPredictBehaviorWithoutTheKnowledgeOrConsentOfTheIndividualsUsingTheNetwork = styled.span`
+	color: white;
+	text-overflow: ellipsis;
+	font-size: 60px;
+	font-family: Impact, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	width: 1243px;
+	min-height: 511px;
+	position: absolute;
+	left: 197px;
+	top: 379px;
+	height: 511px;
+`;
+
+const Image10 = styled.img`
+	width: 255px;
+	height: 197px;
+	object-fit: cover;
+	position: absolute;
+	left: 1224px;
+	top: 827px;
+`;

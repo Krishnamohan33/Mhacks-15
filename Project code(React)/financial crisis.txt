@@ -1,0 +1,71 @@
+import React from "react";
+import styled from "@emotion/styled";
+
+export function FinancialCrisis() {
+  return (
+    <RootWrapperFinancialCrisis>
+      <FinancialCrisis_0001>
+        Financial Crisis
+      </FinancialCrisis_0001>
+      <Image6 src="grida://assets-reservation/images/3:126" alt="image of Image6"/>
+      <Image10 src="grida://assets-reservation/images/3:140" alt="image of Image10"/>
+      <OneOfTheConcernsIsThatAiSystemsCanMakeDecisionsBasedOnPatternsInHistoricalDataWhichCanLeadToOverRelianceOnPastTrendsAndPotentiallyOverlookNewRisksAdditionallyIfMultipleAiSystemsAreMakingSimilarDecisionsItCanLeadToHerdBehaviorWhichCanAmplifyTheImpactOfMarketFluctuations>
+        One of the concerns is that A.I. systems can make decisions based on patterns in historical data, which can lead to over-reliance on past trends and potentially overlook new risks. Additionally, if multiple A.I. systems are making similar decisions, it can lead to herd behavior, which can amplify the impact of market fluctuations.
+      </OneOfTheConcernsIsThatAiSystemsCanMakeDecisionsBasedOnPatternsInHistoricalDataWhichCanLeadToOverRelianceOnPastTrendsAndPotentiallyOverlookNewRisksAdditionallyIfMultipleAiSystemsAreMakingSimilarDecisionsItCanLeadToHerdBehaviorWhichCanAmplifyTheImpactOfMarketFluctuations>
+    </RootWrapperFinancialCrisis>
+  )
+}
+
+const RootWrapperFinancialCrisis = styled.div`
+	min-height: 100vh;
+	background-color: rgb(23, 160, 190);
+	position: relative;
+`;
+
+const FinancialCrisis_0001 = styled.span`
+	color: white;
+	text-overflow: ellipsis;
+	font-size: 100px;
+	font-family: Impact, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	width: 942px;
+	min-height: 162px;
+	position: absolute;
+	left: 381px;
+	top: 76px;
+	height: 162px;
+`;
+
+const Image6 = styled.img`
+	width: 129px;
+	height: 120px;
+	object-fit: cover;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+`;
+
+const Image10 = styled.img`
+	width: 255px;
+	height: 197px;
+	object-fit: cover;
+	position: absolute;
+	left: 1234px;
+	top: 827px;
+`;
+
+const OneOfTheConcernsIsThatAiSystemsCanMakeDecisionsBasedOnPatternsInHistoricalDataWhichCanLeadToOverRelianceOnPastTrendsAndPotentiallyOverlookNewRisksAdditionallyIfMultipleAiSystemsAreMakingSimilarDecisionsItCanLeadToHerdBehaviorWhichCanAmplifyTheImpactOfMarketFluctuations = styled.span`
+	color: white;
+	text-overflow: ellipsis;
+	font-size: 60px;
+	font-family: Impact, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	width: 1243px;
+	min-height: 511px;
+	position: absolute;
+	left: 151px;
+	top: 277px;
+	height: 511px;
+`;

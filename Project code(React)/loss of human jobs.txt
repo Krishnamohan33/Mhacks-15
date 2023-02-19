@@ -1,0 +1,71 @@
+import React from "react";
+import styled from "@emotion/styled";
+
+export function LossOfHumanJobs() {
+  return (
+    <RootWrapperLossOfHumanJobs>
+      <LossOfHumanJobs_0001>
+        Loss Of Human Jobs
+      </LossOfHumanJobs_0001>
+      <Image3 src="grida://assets-reservation/images/3:123" alt="image of Image3"/>
+      <TheIncreasingUseOfAdvancedAiTechnologiesRaisesConcernsAboutPotentialJobLossesForHumansAiCanAutomateRoutineAndRepetitiveTasksWhichMeansThatJobsThatInvolveSuchTasksMayBeReplacedByAiSystemsThisCouldLeadToSignificantChangesInTheLaborMarketWithSomeIndustriesAndJobRolesBecomingObsolete>
+        The increasing use of advanced A.I. technologies raises concerns about potential job losses for humans. A.I. can automate routine and repetitive tasks, which means that jobs that involve such tasks may be replaced by A.I. systems. This could lead to significant changes in the labor market, with some industries and job roles becoming obsolete.
+      </TheIncreasingUseOfAdvancedAiTechnologiesRaisesConcernsAboutPotentialJobLossesForHumansAiCanAutomateRoutineAndRepetitiveTasksWhichMeansThatJobsThatInvolveSuchTasksMayBeReplacedByAiSystemsThisCouldLeadToSignificantChangesInTheLaborMarketWithSomeIndustriesAndJobRolesBecomingObsolete>
+      <Image8 src="grida://assets-reservation/images/3:138" alt="image of Image8"/>
+    </RootWrapperLossOfHumanJobs>
+  )
+}
+
+const RootWrapperLossOfHumanJobs = styled.div`
+	min-height: 100vh;
+	background-color: rgb(23, 160, 190);
+	position: relative;
+`;
+
+const LossOfHumanJobs_0001 = styled.span`
+	color: white;
+	text-overflow: ellipsis;
+	font-size: 100px;
+	font-family: Impact, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	width: 942px;
+	min-height: 162px;
+	position: absolute;
+	left: 341px;
+	top: 86px;
+	height: 162px;
+`;
+
+const Image3 = styled.img`
+	width: 129px;
+	height: 120px;
+	object-fit: cover;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+`;
+
+const TheIncreasingUseOfAdvancedAiTechnologiesRaisesConcernsAboutPotentialJobLossesForHumansAiCanAutomateRoutineAndRepetitiveTasksWhichMeansThatJobsThatInvolveSuchTasksMayBeReplacedByAiSystemsThisCouldLeadToSignificantChangesInTheLaborMarketWithSomeIndustriesAndJobRolesBecomingObsolete = styled.span`
+	color: white;
+	text-overflow: ellipsis;
+	font-size: 60px;
+	font-family: Impact, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	width: 1243px;
+	min-height: 511px;
+	position: absolute;
+	left: 129px;
+	top: 306px;
+	height: 511px;
+`;
+
+const Image8 = styled.img`
+	width: 255px;
+	height: 197px;
+	object-fit: cover;
+	position: absolute;
+	left: 1244px;
+	top: 827px;
+`;

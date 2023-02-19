@@ -1,0 +1,71 @@
+import React from "react";
+import styled from "@emotion/styled";
+
+export function SocialManuplation() {
+  return (
+    <RootWrapperSocialManuplation>
+      <SocialManipulation>
+        Social Manipulation
+      </SocialManipulation>
+      <Image4 src="grida://assets-reservation/images/3:124" alt="image of Image4"/>
+      <SocialManipulationByAdvancedAiIsAnotherConcernAsAiBecomesMoreSophisticatedAndCapableOfAnalyzingVastAmountsOfDataAiCanPotentiallyManipulatePeopleSOpinionsAndBehaviorsByCollectingAndAnalyzingDataAboutTheirPreferencesHabitsAndOnlineActivities>
+        Social manipulation by advanced A.I. is another concern as A.I. becomes more sophisticated and capable of analyzing vast amounts of data. A.I. can potentially manipulate people's opinions and behaviors by collecting and analyzing data about their preferences, habits, and online activities.
+      </SocialManipulationByAdvancedAiIsAnotherConcernAsAiBecomesMoreSophisticatedAndCapableOfAnalyzingVastAmountsOfDataAiCanPotentiallyManipulatePeopleSOpinionsAndBehaviorsByCollectingAndAnalyzingDataAboutTheirPreferencesHabitsAndOnlineActivities>
+      <Image9 src="grida://assets-reservation/images/3:139" alt="image of Image9"/>
+    </RootWrapperSocialManuplation>
+  )
+}
+
+const RootWrapperSocialManuplation = styled.div`
+	min-height: 100vh;
+	background-color: rgb(23, 160, 190);
+	position: relative;
+`;
+
+const SocialManipulation = styled.span`
+	color: white;
+	text-overflow: ellipsis;
+	font-size: 100px;
+	font-family: Impact, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	width: 942px;
+	min-height: 162px;
+	position: absolute;
+	left: 250px;
+	top: 94px;
+	height: 162px;
+`;
+
+const Image4 = styled.img`
+	width: 129px;
+	height: 120px;
+	object-fit: cover;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+`;
+
+const SocialManipulationByAdvancedAiIsAnotherConcernAsAiBecomesMoreSophisticatedAndCapableOfAnalyzingVastAmountsOfDataAiCanPotentiallyManipulatePeopleSOpinionsAndBehaviorsByCollectingAndAnalyzingDataAboutTheirPreferencesHabitsAndOnlineActivities = styled.span`
+	color: white;
+	text-overflow: ellipsis;
+	font-size: 60px;
+	font-family: Impact, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	width: 1243px;
+	min-height: 511px;
+	position: absolute;
+	left: 129px;
+	top: 306px;
+	height: 511px;
+`;
+
+const Image9 = styled.img`
+	width: 255px;
+	height: 197px;
+	object-fit: cover;
+	position: absolute;
+	left: 1219px;
+	top: 827px;
+`;

@@ -1,0 +1,13 @@
+import React from "react";
+import styled from "@emotion/styled";
+export function MainPage() {
+  return (
+    <RootWrapperMainPage/>
+  )
+}
+
+const RootWrapperMainPage = styled.div`
+	min-height: 100vh;
+	background-color: rgb(25, 176, 210);
+	position: relative;
+;

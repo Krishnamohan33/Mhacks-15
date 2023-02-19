@@ -1,0 +1,53 @@
+import React from "react";
+import styled from "@emotion/styled";
+
+export function Conclusion() {
+  return (
+    <RootWrapperConclusion>
+      <HumansCoopWithAi>
+        Humans coop with AI<br/>
+
+      </HumansCoopWithAi>
+      <InConclusionAdvancedAiHasThePotentialToBringSignificantBenefitsToSocietyButThereAreAlsoPotentialRisksAndDangersAssociatedWithItsDevelopmentAndUseTheseRisksIncludeBiasUnemploymentSecurityRisksAutonomyPrivacyConcernsDependenceAndMore>
+        In conclusion, advanced A.I. has the potential to bring significant benefits to society, but there are also potential risks and dangers associated with its development and use. These risks include bias, unemployment, security risks, autonomy, privacy concerns, dependence, and more.
+      </InConclusionAdvancedAiHasThePotentialToBringSignificantBenefitsToSocietyButThereAreAlsoPotentialRisksAndDangersAssociatedWithItsDevelopmentAndUseTheseRisksIncludeBiasUnemploymentSecurityRisksAutonomyPrivacyConcernsDependenceAndMore>
+    </RootWrapperConclusion>
+  )
+}
+
+const RootWrapperConclusion = styled.div`
+	min-height: 100vh;
+	background-color: rgb(23, 160, 190);
+	position: relative;
+`;
+
+const HumansCoopWithAi = styled.span`
+	color: white;
+	text-overflow: ellipsis;
+	font-size: 100px;
+	font-family: Impact, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	width: 942px;
+	min-height: 162px;
+	position: absolute;
+	left: 283px;
+	top: 67px;
+	height: 162px;
+`;
+
+const InConclusionAdvancedAiHasThePotentialToBringSignificantBenefitsToSocietyButThereAreAlsoPotentialRisksAndDangersAssociatedWithItsDevelopmentAndUseTheseRisksIncludeBiasUnemploymentSecurityRisksAutonomyPrivacyConcernsDependenceAndMore = styled.span`
+	color: white;
+	text-overflow: ellipsis;
+	font-size: 60px;
+	font-family: Impact, sans-serif;
+	font-weight: initial;
+	text-align: left;
+	width: 1243px;
+	min-height: 511px;
+	position: absolute;
+	left: 140px;
+	top: 310px;
+	height: 511px;
+`;
+
